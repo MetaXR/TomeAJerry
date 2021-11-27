@@ -4620,6 +4620,7 @@ GameObject:
   - component: {fileID: 1497005050}
   - component: {fileID: 1497005049}
   - component: {fileID: 1497005048}
+  - component: {fileID: 2098679082}
   m_Layer: 0
   m_Name: cat_Idle
   m_TagString: Untagged
@@ -4674,7 +4675,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1497005049
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4705,7 +4706,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rBody: {fileID: 0}
   speed: 10
-  Target: {fileID: 0}
+  Target0: {fileID: 0}
+  textCoin: {fileID: 0}
+  coinNum: 0
+  Target1: {fileID: 0}
+  textBlue: {fileID: 0}
+  blueNum: 0
+  Target2: {fileID: 0}
+  textRed: {fileID: 0}
+  redNum: 0
+--- !u!114 &2098679082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2794823908101678405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37d705c8e9115e439ec799186182634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  variableJoystick: {fileID: 0}
+  rb: {fileID: 1497005049}
 --- !u!1 &2794823908101678407
 GameObject:
   m_ObjectHideFlags: 0
