@@ -1,9 +1,9 @@
 
-A Unity Game Guide for beginner to publish your games
+
 ![微信图片_20221216111944](https://user-images.githubusercontent.com/7145065/208021449-1f4bdbf8-1ad6-4f7a-a2e9-56319ccf88e3.jpg)
 
 # TomeAJerry——《小猪奇奇》
-
+A Unity Game Guide for beginner to publish your games
 本书将以一款开放世界类游戏的实践过程为主线，为读者呈现从零开始上线一款游戏的实践路线、游戏引擎Unity的开发模式，以及游戏开发的核心框架。
 
 本书共分为3篇，第1篇是场景搭建篇，第2篇是脚本开发篇，第3篇是发布上线篇。
